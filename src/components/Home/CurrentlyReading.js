@@ -1,9 +1,8 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { BookContext } from "../../context/BookContext";
 
 export const CurrentlyReading = () => {
   const { state, dispatch } = useContext(BookContext);
-  const [selectedCategory, setSelectedCategory] = useState("");
 
   const filterCurrentlyReadingCategory = state.product.filter(
     ({ category }) => category === "Currently Reading"

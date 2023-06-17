@@ -7,7 +7,7 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
-  const { state, dispatch } = useContext(BookContext);
+  const { state } = useContext(BookContext);
   console.log(state);
   return (
     <>
