@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { BookContext } from "../../context/BookContext";
+import React from "react";
+
 import { CurrentlyReading } from "./CurrentlyReading";
 import { WantToRead } from "./WantToRead";
 import { Read } from "./Read";
