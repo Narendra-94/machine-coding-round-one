@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.search-shift {
+  display: flex;
+  justify-content: center;
+}
 
 .book-card {
   width: 200px;

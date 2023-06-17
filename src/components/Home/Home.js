@@ -7,11 +7,12 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
-  const { state } = useContext(BookContext);
-  console.log(state);
   return (
     <>
-      <Link to="/search">Search Here</Link>
+      <div className="search-shift">
+        <Link to="/search">Search Here</Link>
+      </div>
+
       <CurrentlyReading />
       <WantToRead />
       <Read />
